@@ -8,4 +8,5 @@ I have build this project based with knowledge acquired In <a href="https://www.
 
 There you can find a resume of myself, for example technologies i know, what i'm studing at the moment, experience, my academic experience, courses, languages, how to contact me and more.
 
+Feel free to contact me! 
 Thanks for your visit.
