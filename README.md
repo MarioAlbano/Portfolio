@@ -4,7 +4,7 @@
 
 Hello! This is my **Portfolio**. 
 
-<img src="imag/portfolio-site.gif">
+<img src="img/portfolio-site.gif">
 
 I have build this project based with knowledge acquired In <a href="https://www.origamid.com/">Origamid</a> course using only **HTML** and **CSS**. In the future I will implement with JavaScript. 
 
