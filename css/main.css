@@ -68,6 +68,18 @@ img {
     gap: 100px;
 }
 
+.experiencia-main::after {
+    content: "";
+    display: block;
+    width: 130px;
+    height: 100px;
+    background: url(../img/detalhe.svg) no-repeat center;
+    position: absolute;
+    left: 15px;
+    bottom: -475px;
+    z-index: 1;
+}
+
 .subtitulo-experiencia-main {
     font-size: 8rem;
     word-break: break-all;
