@@ -1,179 +1,156 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Mario Albano - Portifólio" />
-    <title>Portólio: Mario Albano</title>
-    <link rel="stylesheet" href="css/style.min.css" />
-    <link rel="icon" href="/img/favicon.svg" type="image/svg+xml" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <header class="header">
-      <img src="img/marca.svg" alt="Logo Lobo" width="104" height="38" />
-      <nav>
-        <ul class="header-menu">
-          <li><a href="#experiencia">Experiência</a></li>
-          <li><a href="#formacao">Formação</a></li>
-          <li><a href="#contato">Contato</a></li>
-        </ul>
-      </nav>
-    </header>
+<html lang="en">
 
-    <main class="introducao">
-      <img src="img/perfil.jpg" width="360" height="520" alt="Lobo Cinza" />
-      <div>
-        <h1>
-          Desenvolvedor
-          <br />
-          Front End
-        </h1>
-        <p>Localizado em São Paulo</p>
-      </div>
-    </main>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio: Mario Albano</title>
+  <!-- Adicionando fontes do google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Fira+Sans:wght@400;700&display=swap"
+    rel="stylesheet">
+  <!-- linkando arquivo css -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
 
-    <section class="experiencia" id="experiencia" aria-label="Experiência">
-      <h2 class="subtitulo">Experiência</h2>
-      <div>
-        <p class="experiencia-texto">
-          Desenvolvo pequenos projetos pessoais utilizando apenas
-          <strong>HTML</strong>
-          ,
-          <strong>CSS</strong>
-          e
-          <strong>JavaScript</strong>
-          respeitando as boas práticas e o design. Atualmente estudando sobre
-          <strong>JavaScript</strong>
-          e
-          <strong>React</strong>
-          .
-        </p>
-
-        <div class="empresa">
-          <span class="empresa-ano">Desde 2014</span>
-          <h3 class="empresa-titulo">Vidros Cantareira</h3>
-          <span class="empresa-titulo">Assistente administrativo</span>
-          <p class="empresa-texto">
-            Auxílio geral em toda parte logística da empresa como comunicação
-            com clientes, agendamentos de serviços, controle de estoque e
-            planejamento de compras.
-          </p>
-          <ul class="empresa-habilidades">
-            <li>Organização e resoluções de problemas</li>
-            <li>Planejamento financeiro</li>
-            <li>Comunicação</li>
+<body>
+  <!-- Criando o cabeçalho -->
+  <header class="header">
+    <span class="nome-header">Mario Albano</span>
+    <nav class="nav-header">
+      <div class="dropdown">
+        <span>Experiência</span>
+        <div class="dropdown-content">
+          <ul>
+            <li class="dropdown-style"><a href="#experiencia">Sobre</a></li>
+            <li class="dropdown-style"><a href="#experiencia">Projetos</a></li>
           </ul>
         </div>
       </div>
+
+      <div class="dropdown">
+        <span>Formação</span>
+        <div class="dropdown-content">
+          <ul>
+            <li class="dropdown-style"><a href="#formacao">Diplomas</a></li>
+            <li class="dropdown-style"><a href="#formacao">Cursos intensivos</a></li>
+            <li class="dropdown-style"><a href="#formacao">Idiomas</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="dropdown">
+        <span>Contato</span>
+        <div class="dropdown-content">
+          <ul>
+            <li class="dropdown-style"><a href="#contato">Sobre</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Criando a parte principal do HTML -->
+  <main>
+    <section class="apresentacao">
+      <img class="logo-img" src="img/perfil.jpg" alt="">
+      <div>
+        <h1 class="h1-intro">{Desenvolvedor Front End}</h1>
+        <p>/* Localizado em São Paulo */</p>
+      </div>
     </section>
 
-    <section class="formacao" id="formacao" aria-label="Formação">
-      <div class="formacao-container">
-        <h2 class="subtitulo">Formação</h2>
+    <section class="experiencia-main" id="experiencia">
+      <h2 class="subtitulo-experiencia-main">
+        Experiência
+      </h2>
+      <div>
+        <p class="texto-experiencia-main"></br></br>Desenvolvo pequenos projetos pessoais utilizando apenas HTML , CSS e
+          JavaScript.
+          </br></br>
+          Respeitando as boas práticas, responsividade
+          e o design. Atualmente cursando pós graduação na PUC e aprofundando os estudos em React e Node.</p>
+        <p class="texto-experiencia-main">Projetos recentes:
+        <ul class="lista-experiencia-main">
+          <li>
+            <a href="https://marioalbano.github.io/Bikcraft/" target="_blank">Bikcraft</a>
+          </li>
 
+          <li>
+            <a href="https://marioalbano.github.io/Tindog/" target="_blank">Tindog</a>
+          </li>
+
+        </ul>
+        </p>
+
+
+    </section>
+
+    <section class="projetos" id="projetos">
+      <p></p>
+    </section>
+
+    <section class="formacao" id="formacao" aria-label="formação">
+      <div class="formacao-container" data-anime="right">
+        <h2 class="subtitulo">Formação</h2>
         <div>
           <p class="formacao-texto">
-            Minha mais recente experiência acadêmica é a
-            <strong>Pós graduação</strong>
-            que estou fazendo sobre
-            <strong>Desenvolvimento Web Full Stack</strong>
-            . Além disso me mantenho sempre atualizado com cursos intensivos
-            online.
+            Minha mais recente experiência acadêmica é a <strong>Pós graduação</strong> que estou fazendo sobre
+            <strong>Desenvolvimento Web Full Stack</strong>. Além disso me mantenho sempre atualizado com cursos
+            intensivos online.
           </p>
-
           <ul class="faculdade-lista">
             <li class="faculdade">
-              <span class="faculdade-tipo">Pós graduação</span>
-              <h3 class="faculdade-curso">Desenvolvimento Web Full Stack</h3>
-              <span class="faculdade-instutuicao">PUC Minas</span>
+              <span>Pós graduação</span>
+              <h3 class="faculdade-curso">"Desenvolvimento Web Ful Stack"</h3>
+              <span class="faculdade-instituicao">PUC Minas</span>
             </li>
-
             <li class="faculdade">
-              <span class="faculdade-tipo">Bacharel</span>
-              <h3 class="faculdade-curso">Ciências da Computação</h3>
-              <span class="faculdade-instutuicao">Universidade Paulista</span>
+              <span>Bacharel</span>
+              <h3 class="faculdade-curso">"Ciências da computação"</h3>
+              <span class="faculdade-instituicao">Universidade Paulista</span>
             </li>
-
             <li class="faculdade">
-              <span class="faculdade-tipo">Técnico em administração</span>
-              <h3 class="faculdade-curso">Administração de Empresas</h3>
-              <span class="faculdade-instutuicao">Colégio Dom Bosco</span>
+              <span>Técnico em Administração</span>
+              <h3 class="faculdade-curso">"Gestão</br>Empresarial"</h3>
+              <span class="faculdade-instituicao">Colégio Dom Bosco</span>
             </li>
           </ul>
-
           <div class="formacao-extra">
             <div class="cursos">
-              <h3>Cursos Intensivos</h3>
-              <ul>
-                <li>
-                  HTML e CSS
-                  <span>46h</span>
-                </li>
-                <li>
-                  Javascript
-                  <span>40h</span>
-                </li>
-                <li>
-                  Lógica de Programação com JavaScript
-                  <span>11h</span>
-                </li>
-                <li>
-                  Git e GitHub
-                  <span>20h</span>
-                </li>
-                <li>
-                  React - Cursando
-                  <span>23h</span>
-                </li>
-              </ul>
+              <h3>Cursos intesivos</h3>
+              <li>HTML e CSS<span>46h</span></li>
+              <li>JavaScript<span>22h</span></li>
+              <li>Lógica de Programação com JavaScript<span>11h</span></li>
+              <li>Git e GitHub<span>20h</span></li>
+              <li>React - Cursando<span>29h</span></li>
+              <li>Node - Cursando<span>38h</span></li>
             </div>
-
             <div class="idiomas">
               <h3>Idiomas</h3>
-              <ul>
-                <li>
-                  Inglês
-                  <span>/ Pré - Avançado</span>
-                </li>
-                <li>
-                  Espanhol
-                  <span>/ Básico</span>
-                </li>
-              </ul>
+              <li>Inglês<span>Pré - Avançado</span></li>
+              <li>Espanhol<span>Básico</span></li>
             </div>
           </div>
         </div>
       </div>
     </section>
+  </main>
+  <!-- Criando o footer -->
+  <footer class="footer" id="contato">
+    <div class="footer-container" data-anime="left">
+      <p class="footer-texto">Estou disponível para novos projetos no momento. Entre em contato comigo e marcamos uma
+        conversa!</p>
+      <ul class="footer-contato">
+        <li><a href="mailto:marioalbanon@gmail.com" target="_blank">Email</a></li>
+        <li><a href="https://github.com/MarioAlbano" target="_blank">Github</a></li>
+        <li><a href="https://www.linkedin.com/in/mario-albano/" target="_blank">Linkedin</a></li>
+      </ul>
+      <p class="footer-copy">Alguns direitos reservados.</p>
+    </div>
+  </footer>
+  <script src="js/scripts.js"></script>
+</body>
 
-    <footer class="footer" id="contato">
-      <div class="footer-container">
-        <p class="footer-texto">
-          Estou disponível para novos projetos no momento. Entre em contato
-          comigo e marcamos uma conversa!
-        </p>
-        <ul class="footer-contato">
-          <li>
-            <a href="mailto:marioalbanon@gmail.com" target="blank">Email</a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/mario-albano/" target="blank">
-              Linkedin
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/MarioAlbano" target="blank">Github</a>
-          </li>
-        </ul>
-        <p class="footer-copy">Alguns direitos reservados.</p>
-      </div>
-    </footer>
-  </body>
 </html>
