@@ -44,6 +44,10 @@ padding: 30px 190px;
     margin: 25px 20px;
     padding: 10px;
   }
+
+  .dropdown-style a:hover {     
+    color: #67dd0a;
+  }
   
   .dropdown:hover .dropdown-content {
     display: block;

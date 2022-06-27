@@ -30,3 +30,5 @@ window.addEventListener("scroll", function () {
 })
 
 animeScroll();
+
+//Adicionando a galeria
