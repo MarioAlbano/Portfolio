@@ -2,10 +2,22 @@
 display: flex;
 justify-content: space-between;
 margin-top: 20px;
-padding: 30px 80px;
+padding: 30px 190px;
+}
+
+.nome-header {
+    font-family: 'Courgette', cursive;
+    font-size: 2.5rem;
+    font-weight: 900;
 }
 
 .logo-img {
+border-radius: 25%;
+border: #141414 solid 4px;
+}
+
+.logo-img:hover {
+    border: rgb(27, 244, 20) solid 4px;
 }
 
 .ul-header {
