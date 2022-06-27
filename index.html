@@ -19,12 +19,36 @@
   <!-- Criando o cabeçalho -->
   <header class="header">
     <span class="nome-header">Mario Albano</span>
-    <nav>
-      <ul class="ul-header">
-        <li><a href="#">Experiência</a></li>
-        <li><a href="#">Formação</a></li>
-        <li><a href="#">Contato</a></li>
-      </ul>
+    <nav class="nav-header">
+      <div class="dropdown">
+        <span>Experiência</span>
+        <div class="dropdown-content">
+          <ul>
+            <li class="dropdown-style"><a href="#">Sobre</a></li>
+            <li class="dropdown-style"><a href="#">Projetos</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <span>Formação</span>
+        <div class="dropdown-content">
+          <ul>
+            <li class="dropdown-style"><a href="#">Diplomas</a></li>
+            <li class="dropdown-style"><a href="#">Cursos intensivos</a></li>
+            <li class="dropdown-style"><a href="#">Idiomas</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="dropdown">
+        <span>Contato</span>
+        <div class="dropdown-content">
+          <ul>
+            <li class="dropdown-style"><a href="#">Sobre</a></li>
+            <li class="dropdown-style"><a href="#">Projetos</a></li>
+          </ul>
+        </div>
+      </div>
     </nav>
   </header>
 
@@ -66,7 +90,7 @@
     </section>
 
     <section class="formacao" id="formacao" aria-label="formação">
-      <div class="formacao-container">
+      <div class="formacao-container" data-anime="right">
         <h2 class="subtitulo">Formação</h2>
         <div>
           <p class="formacao-texto">
@@ -113,7 +137,7 @@
   </main>
   <!-- Criando o footer -->
   <footer class="footer" id="contato">
-    <div class="footer-container">
+    <div class="footer-container" data-anime="left">
       <p class="footer-texto">Estou disponível para novos projetos no momento. Entre em contato comigo e marcamos uma
         conversa!</p>
       <ul class="footer-contato">
@@ -124,6 +148,7 @@
       <p class="footer-copy">Alguns direitos reservados.</p>
     </div>
   </footer>
+  <script src="js/scripts.js"></script>
 </body>
 
 </html>

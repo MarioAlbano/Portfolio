@@ -11,6 +11,44 @@ padding: 30px 190px;
     font-weight: 900;
 }
 
+.nav-header {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    font-size: 20px;
+    align-items: center;
+}
+
+/* Adicionando os estilos dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: auto;
+    color: #fff;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 0px;
+    z-index: 1;
+  }
+
+  .dropdown-style a {     
+    text-decoration: none;
+    color: #525252;
+    font-size: 20px;
+    box-sizing: border-box;
+    display: block;
+    margin: 25px 20px;
+    padding: 10px;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
 .logo-img {
 border-radius: 25%;
 border: #141414 solid 4px;
@@ -18,6 +56,7 @@ border: #141414 solid 4px;
 
 .logo-img:hover {
     border: rgb(27, 244, 20) solid 4px;
+    box-shadow: 5px 10px rgb(27, 244, 20);
 }
 
 .ul-header {
