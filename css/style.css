@@ -1,7 +1,8 @@
-/*Importando o header*/
+/*Importando o header, para dividir o CSS em partes*/
 @import url(header.css);
 @import url(main.css);
 @import url(formacao.css);
+@import url(footer.css);
 
 /*Utilizando CSS reset*/
 /* http://meyerweb.com/eric/tools/css/reset/ 

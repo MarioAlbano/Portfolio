@@ -2,16 +2,26 @@
 display: flex;
 justify-content: space-between;
 margin-top: 20px;
-padding: 30px 120px;
+padding: 30px 80px;
+}
+
+.logo-img {
 }
 
 .ul-header {
     display: flex;
-    flex: wrap;
-    gap: 20px;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
 }
 
 .ul-header li a {
     text-decoration: none;
     color: #141414;
+    font-size: 1.125rem;
+}
+
+.ul-header li a:hover {
+    color: #67dd0a;
+    cursor:pointer;
 }
