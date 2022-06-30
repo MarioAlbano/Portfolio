@@ -6,23 +6,6 @@ align-content: center;
 gap: 5px;
 }
 
-@media (max-width: 800px){
-  .header {
-    margin-top: 10%;
-    justify-content: center;
-    gap: 5%;   
-    }
-    .nome-header {
-      margin-bottom: 8%;
-    }
-    .header .nav-header {
-      margin-bottom: 20%;
-      margin-top: 2%;
-      padding: 0;
-    }
- 
-}
-
 .nome-header {
     font-family: 'Courgette', cursive;
     font-size: 2.5rem;
@@ -75,13 +58,6 @@ border-radius: 25%;
 border: #141414 solid 4px;
 }
 
-@media (max-width: 800px){
-
-  .logo-img {
-    display: none;
-  }
-}
-
 .logo-img:hover {
     border: rgb(27, 244, 20) solid 4px;
     box-shadow: 5px 10px rgb(27, 244, 20);
@@ -103,4 +79,30 @@ border: #141414 solid 4px;
 .ul-header li a:hover {
     color: #67dd0a;
     cursor:pointer;
+}
+
+@media (max-width: 800px){
+  .header {
+    max-width: 800px;
+    margin-top: 10%;
+    justify-content: center;
+    gap: 5%;   
+    }
+    .nome-header {
+      margin-bottom: 8%;
+    }
+    .header .nav-header {
+      margin-bottom: 20%;
+      margin-top: 2%;
+      padding: 0;
+      margin-left: 50px;
+      gap: 30px;
+    }
+}
+
+@media (max-width: 800px){
+
+  .logo-img {
+    display: none;
+  }
 }

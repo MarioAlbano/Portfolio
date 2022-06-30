@@ -87,6 +87,7 @@ img {
     max-width: 4ch;
     color: #e0e0e0;
     font-weight: bold;
+    display: block;
 }
 
 .texto-experiencia-main {
@@ -234,12 +235,41 @@ color:#141414;
         max-width: 500px;
         margin-left: auto;
         margin-right: auto;
-
+    }
+    .experiencia-main div div {
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .experiencia-main::after {
+        content: "";
+        display: none;
     }
 }
 
 @media(max-width: 800px){
     .subtitulo-experiencia-main {
         display: none;
+    }
+
+    .formacao {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .formacao .subtitulo {
+    display: none;
+    }
+
+    .formacao .formacao-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer .footer-container {
+        max-width: 500px;
     }
 }
