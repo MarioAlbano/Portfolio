@@ -106,3 +106,29 @@ border: #141414 solid 4px;
     display: none;
   }
 }
+
+@media (max-width: 600px){
+  .header {
+    max-width: 500px;
+    margin-top: 10%;
+    justify-content: center;
+    gap: 5%;   
+    }
+    .nome-header {
+      margin-bottom: 5%;
+    }
+    .header .nav-header {
+      margin-bottom: 20%;
+      margin-top: 2%;
+      padding: 0;
+      gap: 20px;
+      margin-left: 0;
+    }
+}
+
+@media (max-width: 600px){
+
+  .logo-img {
+    display: none;
+  }
+}
