@@ -58,3 +58,9 @@ table {
 * {
     font-family: 'Fira Sans', sans-serif;
 }
+
+/* Tirando barras de rolagem horizontais */
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}

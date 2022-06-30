@@ -1,5 +1,6 @@
 main{
     margin-top: 6.25rem;
+    box-sizing: border-box;
 }
 
 .apresentacao {
@@ -291,7 +292,7 @@ color:#141414;
         margin-right: auto;
     }
     .apresentacao div .h1-intro {
-        font-size: 3.5rem;
+        font-size: 3rem;
     }
     .apresentacao div p {
         font-size: 1rem;

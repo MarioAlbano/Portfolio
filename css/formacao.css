@@ -154,3 +154,14 @@
 .idiomas h3::before {
     background: url(/img/idiomas.svg) no-repeat center center;
 }
+
+@media(max-width: 1000px) {
+        .formacao-container div {
+        width: 80%;
+        margin: auto;
+    }
+
+    .formacao-extra .idiomas {
+        margin-top: 50px;
+    }
+    }
