@@ -4,6 +4,7 @@ flex-wrap: wrap;
 justify-content: space-between;
 align-content: center;
 gap: 5px;
+padding: 50px; 
 }
 
 .nome-header {

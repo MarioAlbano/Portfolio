@@ -2,13 +2,13 @@ main{
     margin-top: 6.25rem;
 }
 
-
-
 .apresentacao {
     max-width: 1200px;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    gap: 100px;
+    gap: 200px;
+    margin: auto;
+    margin-bottom: 80px;
     justify-content: center;
 }
 
@@ -65,6 +65,7 @@ img {
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 100px;
+    margin-bottom: 80px;
 }
 
 .experiencia-main::after {
@@ -75,7 +76,7 @@ img {
     background: url(../img/detalhe.svg) no-repeat center;
     position: absolute;
     left: 15px;
-    bottom: -475px;
+    bottom: -55%;
     z-index: 1;
 }
 
@@ -276,7 +277,7 @@ color:#141414;
 
 /* Responsividade abaixo de 600px */
 
-@media(max-width: 500px){
+@media(max-width: 550px){
     .apresentacao {
         max-width: auto;
         display: grid;
