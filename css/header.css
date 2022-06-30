@@ -37,17 +37,20 @@ padding: 50px;
     z-index: 1;
   }
 
-  .dropdown-style a {     
-    text-decoration: none;
-    color: #525252;
-    font-size: 20px;
+  .dropdown-style a {
+    color: rgb(82, 82, 82);
+    font-size: 18px;
     box-sizing: border-box;
     display: block;
-    margin: 25px 20px;
-  }
+    text-decoration: none;
+    padding: 30px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
 
   .dropdown-style a:hover {     
-    color: #67dd0a;
+    color: #fff;
+    background-color: #141414;
   }
   
   .dropdown:hover .dropdown-content {
