@@ -297,8 +297,11 @@ color:#141414;
         margin-right: auto;
     }
     .apresentacao div .h1-intro {
-        font-size: 3rem;
-        width: 90%;
+        font-size: 2.5rem;
+        width: 75%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
     }
     .apresentacao p {
         font-size: 1rem;
@@ -308,8 +311,10 @@ color:#141414;
         margin-left: 70x;
     }
 .apresentacao h1::before {
-    width: 75%;
-    left: -18%;
+    width: 100%;
+    height: 100%;
+    left: -35%;
+    background: url(/img/detalhe_resize.svg) no-repeat center;
 }
 }
 
