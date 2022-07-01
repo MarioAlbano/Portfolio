@@ -211,6 +211,8 @@ color:#141414;
     }
 .apresentacao h1::before {
     width: 75%;
+    height: 100%;
+    position: absolute;
     left: -25%;
 }
 }
@@ -307,7 +309,7 @@ color:#141414;
     }
 .apresentacao h1::before {
     width: 75%;
-    left: -25%;
+    left: -18%;
 }
 }
 
