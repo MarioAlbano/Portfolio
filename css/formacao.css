@@ -165,3 +165,10 @@
         margin-top: 50px;
     }
     }
+
+    @media (max-width: 500px){
+    .formacao-container div {
+        width: 95%;
+        margin: auto;
+    }
+}
