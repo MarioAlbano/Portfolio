@@ -285,6 +285,9 @@ color:#141414;
         grid-template-columns: 1fr;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 10px;
+        height: auto;
+        gap: 15px;
     }
     .apresentacao div {
         max-width: 350px;
@@ -293,10 +296,14 @@ color:#141414;
     }
     .apresentacao div .h1-intro {
         font-size: 3rem;
+        width: 90%;
     }
-    .apresentacao div p {
+    .apresentacao p {
         font-size: 1rem;
         color: #525252;
+        display: block;
+        text-align: center;
+        margin-left: 70x;
     }
 .apresentacao h1::before {
     width: 75%;
@@ -314,20 +321,20 @@ color:#141414;
 
 @media(max-width: 600px) {
     .experiencia-main{
-        max-width: 500px;
+        width: 95%;
         display: grid;
         grid-template-columns: 1fr;
         margin-left: auto;
         margin-right: auto;
     }
     .experiencia-main div{
-        max-width: 400px;
+        width: 90%;
         margin-left: auto;
         margin-right: auto;
         margin-top: 20px;
     }
     .experiencia-main div div {
-        max-width: 300px;
+        width: 90%;
         margin-left: auto;
         margin-right: auto;
     }
