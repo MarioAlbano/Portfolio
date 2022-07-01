@@ -90,7 +90,8 @@ border: #141414 solid 4px;
     max-width: auto;
     margin-top: 10%;
     justify-content: center;
-    gap: 5%;   
+    gap: 5%;
+    margin: 0px;
     }
     .nome-header {
       margin-bottom: 8%;
@@ -114,11 +115,11 @@ border: #141414 solid 4px;
 @media (max-width: 600px){
   .header {
     max-width: auto;
-    margin-top: 10%;
-    margin-bottom: 20%;
+    margin: 0px;
     justify-content: center;
     padding: 10px;
     gap: 5%;   
+    margin-top: 10%;
     }
     .nome-header {
       margin-bottom: 5%;

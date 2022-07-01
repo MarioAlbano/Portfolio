@@ -48,3 +48,26 @@
     color: #8f8f8f;
     grid-column: 1/-1;
 }
+
+@media(max-width:800px) {
+    .footer-container {
+        max-width: 75%;
+        padding: 60px 20px 60px 20px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 40px;
+        align-items: center;
+    }
+    .footer-contato {
+        margin-top: 50px;
+    }
+
+    .footer-contato li {
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+        margin-right: auto;
+    }
+    
+}
