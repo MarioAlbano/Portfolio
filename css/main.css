@@ -278,6 +278,26 @@ color:#141414;
     .footer .footer-container {
         max-width: 500px;
     }
+    
+    .lista-experiencia-main{
+        max-width: auto;
+        margin-left: auto;
+        margin-right: auto;
+        box-sizing: border-box;
+        gap: 5px;
+    }
+
+    .lista-experiencia-main li{
+        width: 250px;
+    }
+
+    .lista-experiencia-main li a{
+        font-size: 1.75rem;
+        padding: 10px;
+        margin: 10px;
+        display: block;
+    }
+
 }
 
 /* Responsividade abaixo de 600px */
