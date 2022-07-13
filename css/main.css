@@ -28,10 +28,24 @@ img {
     max-width: 100%;
     display: block;
     height: auto;
+    transform: translateY();
+    animation: float 5s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        trasform: translatey(0px);
+    }
+    50% {
+        transform: translatey(-30px);
+    }
+    100%{
+        transform: translatey(0px);
+    }
 }
 
 .h1-intro {
-    font-size: 4.5rem;
+    font-size: 4.3rem;
     font-weight: bold;
     line-height: 1.125;
     margin-bottom: 30px;

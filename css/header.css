@@ -35,11 +35,11 @@ padding: 50px;
     color: #fff;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    border-radius: 25%;
+    border-radius: 5%;
   }
 
   .dropdown-style li {
-    border-radius: 25%;
+    border-radius: 5%;
   }
 
   .dropdown-style a {
@@ -49,14 +49,14 @@ padding: 50px;
     display: block;
     text-decoration: none;
     padding: 20px 20px;
-    border-radius: 25%;
+    border-radius: 5%;
     text-align: center;
 }
 
   .dropdown-style a:hover {     
     color: #fff;
     background-color: #141414;
-    border-radius: 25%;
+    border-radius: 5%;
   }
   
   .dropdown:hover .dropdown-content {
@@ -65,7 +65,7 @@ padding: 50px;
 
 .logo-img {
 border-radius: 25%;
-border: #141414 solid 4px;
+border: #fff solid 4px;
 }
 
 .logo-img:hover {
