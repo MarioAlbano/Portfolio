@@ -11,8 +11,15 @@ padding: 50px;
     font-family: 'Courgette', cursive;
     font-size: 2.5rem;
     font-weight: 900;
+    margin-left: 150px;
+    border-bottom: #67dd0a solid 4px;
 }
 
+.nav-style-header {
+  font-family: 'Courgette', cursive;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
 
 .nav-header {
     display: flex;
@@ -20,6 +27,7 @@ padding: 50px;
     gap: 60px;
     font-size: 20px;
     align-items: center;
+    margin-right: 150px;
 }
 
 /* Adicionando os estilos dropdown */
@@ -62,16 +70,6 @@ padding: 50px;
   .dropdown:hover .dropdown-content {
     display: block;
   }
-
-.logo-img {
-border-radius: 25%;
-border: #fff solid 4px;
-}
-
-.logo-img:hover {
-    border: rgb(27, 244, 20) solid 4px;
-    box-shadow: 5px 10px rgb(27, 244, 20);
-}
 
 .ul-header {
     display: flex;

@@ -1,5 +1,19 @@
+@keyframes color {
+    0%   { background: #EAF2E3; }
+    20%  { background: #13f2cd; }
+    40%  { background: #0fa3b1; }
+    60%  { background: #0fa3b1; }
+    80%  { background: #33CC36; }
+    100% { background: #33CCCC; }
+  }
+  
+  body {
+    background: #fff; /* Fallback */
+    animation: color 15s infinite linear;
+  }
+
 main{
-    margin-top: 6.25rem;
+    margin-top: 250px;
     box-sizing: border-box;
 }
 
@@ -81,6 +95,9 @@ img {
     grid-template-columns: 1fr 2fr;
     gap: 100px;
     margin-bottom: 80px;
+    background-color: #fff;
+    padding: 100px 200px;
+    border-radius: 40px;
 }
 
 .experiencia-main::after {
@@ -89,18 +106,19 @@ img {
     width: 130px;
     height: 100px;
     background: url(../img/detalhe.svg) no-repeat center;
-    position: absolute;
-    left: 15px;
-    bottom: -50%;
+    position: relative;
+    left: -180px;
+    bottom: -230px;
     z-index: 1;
+
 }
 
 .subtitulo-experiencia-main {
-    font-size: 8rem;
+    font-size:6rem;
     word-break: break-all;
     line-height: 1;
     text-transform: uppercase;
-    max-width: 4ch;
+    max-width: 6ch;
     color: #e0e0e0;
     font-weight: bold;
     display: block;
