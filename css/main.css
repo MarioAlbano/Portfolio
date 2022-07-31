@@ -118,6 +118,11 @@ img {
     border-radius: 40px;
 }
 
+.experiencia-imagem-homem {
+    position: relative;
+    bottom: -160px;
+}
+
 .experiencia-div-detalhe::after {
     content: "";
     display: block;
@@ -126,7 +131,7 @@ img {
     background: url(../img/detalhe.svg) no-repeat center;
     position: relative;
     left: -200px;
-    bottom: -646px;
+    bottom: -400px;
     z-index: 1;
 
 }
@@ -229,7 +234,7 @@ color:#141414;
 /* Animação */
 [data-anime] {
     opacity: 0;
-    transition: .3s;
+    transition: .6s;
 }
 
 [data-anime="left"] {
