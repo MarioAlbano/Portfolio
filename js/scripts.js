@@ -31,4 +31,4 @@ window.addEventListener("scroll", function () {
 
 animeScroll();
 
-//Adicionando a galeria
+//Adicionando evento smooth scroll
