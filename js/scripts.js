@@ -31,4 +31,5 @@ window.addEventListener("scroll", function () {
 
 animeScroll();
 
-//Adicionando evento smooth scroll
+//Adicionando hover nos cursos
+
