@@ -20,10 +20,12 @@ padding: 50px;
   font-size: 1.5rem;
   font-weight: 900;
   border-bottom: transparent solid 6px;
+  color: #141414;
+  text-decoration: none;
 }
 
 .nav-style-header:hover {
-  border-bottom: #67dd0a solid 6px;
+  border-bottom: #CCF235 solid 6px;
   transition-duration: 1s;
 }
 
