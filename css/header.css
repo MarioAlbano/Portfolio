@@ -19,6 +19,12 @@ padding: 50px;
   font-family: 'Courgette', cursive;
   font-size: 1.5rem;
   font-weight: 900;
+  border-bottom: transparent solid 6px;
+}
+
+.nav-style-header:hover {
+  border-bottom: #67dd0a solid 6px;
+  transition-duration: 1s;
 }
 
 .nav-header {
