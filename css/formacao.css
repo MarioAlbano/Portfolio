@@ -109,6 +109,11 @@
     color: #8f8f8f;
 }
 
+.formacao-extra li span:hover {
+        color: #67dd0a;
+        cursor:pointer;
+    }
+
 .formacao-extra h3::before {
     display: block;
     content: "";
