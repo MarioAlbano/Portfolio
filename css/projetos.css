@@ -48,6 +48,8 @@
 
 .projetos-card-link:hover{
     border: rebeccapurple solid 3px;
+    transform: scale(120%);
+    transition: 0.5s;
 }
 
 .projetos-card-a {
@@ -68,6 +70,11 @@
 .projetos-card img:hover {
     border-left: 8px solid rebeccapurple;
     transform: scale(120%);
+}
+
+.projetos-card-link img {
+    border: none;
+    transition: none;
 }
 
 .projetos-card-p-principal {
