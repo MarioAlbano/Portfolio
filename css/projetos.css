@@ -1,10 +1,80 @@
 .projetos-h3 {
-    
+    display: flex;
+    padding: 50px 230px;
+    justify-content: left;
+    color: #C4C4C4;
+    text-transform: uppercase;
+    font-size: 5rem ;
+    font-weight: 700;
+    margin-top: 60px;
 }
 
-.projetos {
+.projetos-titulo {
     width: auto;
-    height: 1000px;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.projetos-div {
+    position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 100px 0px;
+    place-items: center;
+    margin-bottom: 5rem;
+}
+
+.projetos-card {
+    width: 500px;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+.projetos-card-link {
+    display: flex;
+    gap: 10px;
+    width: 170px;
+    height: 50px;
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 5px 8px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+    box-sizing: border-box;
+    border: solid 3px #67dd0a;
+}
+
+.projetos-card-link:hover{
+    border: rebeccapurple solid 3px;
+}
+
+.projetos-card-a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+}
+
+.projetos-card img {
+    animation: none;
+}
+
+.projetos-card-p-principal {
+    font-size: 20px;
+    padding: 25px 0px;
+    line-height: 1.3;
+}
+
+.projetos-card-texto {
+    font-size: 18px;
+    line-height: 1.3;
+    margin-bottom: 30px;
+}
+
+.projetos-card-desc{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.3;
+
 }
