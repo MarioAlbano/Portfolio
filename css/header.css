@@ -25,7 +25,8 @@ padding: 50px;
 }
 
 .nav-style-header:hover {
-  border-bottom: #CCF235 solid 6px;
+  border-bottom: #CCF235 solid 4px;
+  transform: scaleX(1);
   transition-duration: 1s;
 }
 

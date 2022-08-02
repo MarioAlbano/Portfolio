@@ -116,6 +116,7 @@ img {
     background-color: #fff;
     padding: 100px 200px;
     border-radius: 40px;
+    border: #141414 solid 3px;
 }
 
 .experiencia-imagem-homem {
@@ -131,13 +132,13 @@ img {
     background: url(../img/detalhe.svg) no-repeat center;
     position: relative;
     left: -200px;
-    bottom: -400px;
+    bottom: -365px;
     z-index: 1;
 
 }
 
 .subtitulo-experiencia-main {
-    font-size:5rem;
+    font-size:6rem;
     word-break: break-all;
     line-height: 1;
     text-transform: uppercase;

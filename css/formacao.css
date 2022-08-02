@@ -15,12 +15,12 @@
 }
 
 .subtitulo{
-    font-size: 8rem;
+    font-size: 7rem;
     word-break: break-all;
     line-height: 1;
     text-transform: uppercase;
     color: #000;
-    max-width: 5ch;
+    max-width: 6ch;
     display: block;
     font-weight: bold;
 }
