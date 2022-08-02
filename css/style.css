@@ -4,6 +4,7 @@
 @import url(formacao.css);
 @import url(footer.css);
 @import url(galeria.css);
+@import url(projetos.css);
 
 /*Utilizando CSS reset*/
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -55,7 +56,7 @@ table {
 	border-spacing: 0;
 }
 
-* {
+*, body {
     font-family: 'Fira Sans', sans-serif;
 }
 

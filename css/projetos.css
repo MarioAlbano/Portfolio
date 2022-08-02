@@ -1,0 +1,10 @@
+.projetos-h3 {
+    
+}
+
+.projetos {
+    width: auto;
+    height: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
