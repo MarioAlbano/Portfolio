@@ -359,7 +359,7 @@ color:#141414;
 
 /* Responsividade abaixo de 600px */
 
-@media(max-width: 550px){
+/* @media(max-width: 550px){
     .apresentacao {
         max-width: auto;
         display: grid;
@@ -455,4 +455,4 @@ color:#141414;
     .footer .footer-container {
         max-width: 500px;
     }
-}
+} */
