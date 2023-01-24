@@ -1,23 +1,44 @@
-# Mario Albano - Portfolio
+### Hi there! 👋
 
-# Under development | Em construção
+> This is my portifolio. Here you can find technologies that i know, what i'm studying at the moment, formation, courses that i did it, language knowledge, how to contact-me and more. 
+<img width="1426" alt="Captura de Tela 2023-01-23 às 13:36" src="src/components/img/fotos/site-example.png">
 
-<img src="img/portfolio-site.gif">
+## What is inside?
 
-[EN] Hello! This is my **Portfolio**. 
+- HTML
+- CSS3 
+- Prettier
+- Javascript
 
-I have build this project based with knowledge acquired in <a href="https://www.origamid.com/">Origamid</a> course using only **HTML** and **CSS**. In the future I will implement with JavaScript and React. 
+## Getting Started
 
-There you can find a resume of myself, for example technologies i know, what i'm studing at the moment, experiences, my academic experience, courses i finished and what i'm taking now, languages level, how to contact me and more.
+### Install dependencies:
 
-Feel free to message me. Thanks for your visit!
+```bash
+yarn
+```
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+or
 
-[BR] Olá! Este é meu **Portfolio**.
+```bash
+npm install
+```
 
-Eu criei esse projeto baseado nos conhecimentos adquiridos com o curso <a href="https://www.origamid.com/">Origamid</a> usando somente **HTML** and **CSS**. No futuro irei implementar com **JavaScript** e **React**.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Lá você consegue encontrar um resumo sobre mim, por exemplo tecnologias que eu sei, oque estou estudando no momento, experiências, minha experiência acadêmica, cursos que fiz e que estou cursando agora, níveis em idiomas, como me contactar e mais.
+## Structure
 
-Sinta-se livre para me mandar uma mensagem. Obrigado pela sua visita!
+```
+└── src
+    ├── components
+    ├── pages
+    ├── styles
+```
+
+| Folder              | Description                                      |
+| ----------          | -------------------------------------------      |
+| **components**      | Page components                                  |
+| **pages**           | Page components                                  |
+| **styles**          | Application styles                               |
+
+<p align="center">Made with 💜 by Mario</p>
