@@ -47,9 +47,20 @@
   align-items: center;
 }
 
-.header-flags img {
-  width: 50px;
+.header-flags a {
   padding: 10px;
+}
+
+.header-flags img {
+  width: 55px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  padding: 0px;
+}
+
+.header-flags img:hover {
+  border: 3px solid #67dd0a;
+  transition: 1s;
 }
 
 .dropdown-content {
