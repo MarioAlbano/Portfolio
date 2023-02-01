@@ -40,7 +40,13 @@ main {
 .icone-flexa {
     position: relative;
     top: -20px;
-    animation: none;
+    padding: 10px;
+    transition: 0.6s;
+}
+
+.icone-flexa:hover {
+    top: -10px;
+    transition: 0.6s;
 }
 
 .apresentacao {
