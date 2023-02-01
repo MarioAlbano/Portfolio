@@ -47,6 +47,11 @@
   align-items: center;
 }
 
+.header-flags img {
+  width: 50px;
+  padding: 10px;
+}
+
 .dropdown-content {
   display: none;
   position: absolute;
