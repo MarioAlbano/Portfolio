@@ -165,7 +165,7 @@ main {
 }
 
 .experiencia-main {
-    max-width: 1400px;
+    max-width: 1150px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 2fr;
