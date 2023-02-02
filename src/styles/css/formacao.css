@@ -171,19 +171,19 @@
     }
 
     .cursos {
-        margin-top: 20px;
+        margin-top: 24px;
     }
 
     .cursos h3,
     .cursos li {
-        font-size: 20px;
+        font-size: 24px;
         padding: 10px;
         margin: auto;
     }
 
     .idiomas h3,
     .idiomas li {
-        font-size: 20px;
+        font-size: 24px;
         padding: 10px;
         margin: auto;
     }
