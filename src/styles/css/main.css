@@ -52,7 +52,7 @@ main {
 }
 
 .apresentacao {
-    max-width: 1200px;
+    max-width: 1400px;
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 200px;
@@ -165,7 +165,7 @@ main {
 }
 
 .experiencia-main {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 2fr;
