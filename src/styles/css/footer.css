@@ -16,7 +16,8 @@
 .footer-texto {
     font-size: 1.5rem;
     line-height: 1.33;
-    color: #ccc;
+    color: #fff;
+    text-align: center;
 }
 
 .footer-contato li {
@@ -47,26 +48,27 @@
 .footer-copy {
     font-size: 1.125rem;
     color: #8f8f8f;
+    text-align: center;
     grid-column: 1/-1;
 }
 
 @media(max-width:800px) {
     .footer-container {
         max-width: 75%;
-        padding: 60px 20px 60px 20px;
+        padding: 50px 20px 60px 20px;
         margin: 0 auto;
         display: grid;
         grid-template-columns: 1fr;
-        gap: 40px;
+        gap: 20px;
         align-items: center;
     }
 
     .footer-contato {
-        margin-top: 50px;
+        margin-top: 30px;
     }
 
     .footer-contato li {
-        padding: 0px;
+        padding: 10px;
         display: flex;
         justify-content: center;
         margin-right: auto;
