@@ -491,7 +491,7 @@ main {
     }
 
     .experiencia-main {
-        max-width: 280px;
+        max-width: auto;
         gap: 10px;
     }
 
