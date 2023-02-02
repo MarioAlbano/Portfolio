@@ -69,6 +69,27 @@
     border: 3px solid #67dd0a;
 }
 
+.projetos-botao-2 {
+    width: 200px;
+    height: 60px;
+    font-size: 24px;
+    border: 3px solid #000;
+    color: #757286;
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+    text-shadow: 0.5px 0.5px 0.5px #000;
+    display: grid;
+    place-items: center;
+    transition: 1s;
+}
+
+.projetos-botao-2:hover {
+    background-color: #141414;
+    color: white;
+    text-shadow: 2px 2px 2px #000;
+    border: 3px solid #141414;
+}
+
 .projetos-imagem {
     height: 380px;
     width: 700px;
