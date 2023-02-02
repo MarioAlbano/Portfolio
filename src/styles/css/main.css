@@ -39,6 +39,7 @@ main {
 
 .icone-flexa {
     position: relative;
+    width: 40px;
     top: -20px;
     padding: 10px;
     transition: 0.6s;
