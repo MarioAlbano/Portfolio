@@ -55,9 +55,8 @@
 
 .header-flags {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   flex-direction: row;
-  margin: 0 auto;
 }
 
 .header-flags a {
@@ -142,7 +141,6 @@
     justify-content: center;
     margin: 0 auto;
     padding: 10px 20px;
-    margin-bottom: 40px;
   }
 
   .header-flags img {
@@ -159,6 +157,7 @@
 
   .nav-header-principal {
     justify-content: center;
+    margin-bottom: 25px;
   }
 
   .nav-header li a {
