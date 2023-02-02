@@ -49,7 +49,7 @@
 
 
 .projetos-botao {
-    width: 160px;
+    width: 150px;
     height: 60px;
     font-size: 24px;
     border: 3px solid #000;
@@ -57,9 +57,10 @@
     text-decoration: none;
     font-family: Montserrat, sans-serif;
     text-shadow: 0.5px 0.5px 0.5px #000;
-    display: flex;
+    display: inline-flex;
     align-items: center;
-    padding: 20px;
+    justify-items: center;
+    padding: 5px 30px;
     transition: 1s;
 }
 
