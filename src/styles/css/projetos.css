@@ -101,3 +101,22 @@
     width: 740px;
     transition: 1s;
 }
+
+@media (max-width: 600px) {
+    .projetos-h3 {
+        font-size: 32px;
+        text-align: center;
+        margin: 40px auto;
+        padding: 0;
+    }
+
+    .projetos-agrupamento {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-items: center;
+        max-width: 280px;
+        gap: 20px;
+        margin: 0 auto;
+    }
+}
