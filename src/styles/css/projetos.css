@@ -7,4 +7,77 @@
     font-size: 5rem;
     font-weight: 700;
     margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.projetos-agrupamento {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    justify-items: center;
+    max-width: 1400px;
+    gap: 20px;
+    margin: auto auto 100px auto;
+}
+
+.projetos-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.projetos-card h4 {
+    font-size: 35px;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 1px #757286;
+    font-weight: 600;
+}
+
+.projetos-card p {
+    font-size: 24px;
+    font-weight: 200;
+    color: #757286;
+    font-family: Montserrat, sans-serif;
+    text-align: left;
+    line-height: 35px;
+}
+
+.projetos-botao-div {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+
+.projetos-botao {
+    width: 160px;
+    height: 60px;
+    font-size: 24px;
+    border: 3px solid #000;
+    color: #757286;
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+    text-shadow: 0.5px 0.5px 0.5px #000;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    transition: 1s;
+}
+
+.projetos-botao:hover {
+    background-color: #67dd0a;
+    color: white;
+    text-shadow: 2px 2px 2px #000;
+    border: 3px solid #67dd0a;
+}
+
+.projetos-imagem {
+    height: 380px;
+    width: 700px;
+    transition: 1s;
+}
+
+.projetos-imagem:hover {
+    height: 410px;
+    width: 740px;
+    transition: 1s;
 }
