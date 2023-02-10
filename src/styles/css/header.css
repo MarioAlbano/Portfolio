@@ -1,27 +1,34 @@
 .header {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  align-content: center;
+  justify-content: space-around;
+  align-items: center;
   gap: 5px;
-  padding: 50px;
+  padding: 40px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+  z-index: 1;
+  border-bottom: solid 4px #141414;
 }
 
 .nome-header {
-  font-family: 'Courgette', cursive;
+  font-family: "Courgette", cursive;
   font-size: 2.5rem;
   font-weight: 900;
   border-bottom: #67dd0a solid 4px;
 }
 
 .nav-style-header {
-  font-family: 'Courgette', cursive;
+  font-family: "Courgette", cursive;
   font-size: 1.85rem;
   font-weight: 900;
   border-bottom: transparent solid 4px;
   text-decoration: none;
   color: #141414;
-  transition: width .5s ease, background-color .5s ease;
+  transition: width 0.5s ease, background-color 0.5s ease;
   box-shadow: 2px 2px transparent;
 }
 
@@ -31,7 +38,7 @@
 }
 
 .nav-style-header::after {
-  content: '';
+  content: "";
   display: block;
   width: 0;
   height: 0.4063rem;
@@ -42,7 +49,7 @@
 
 .nav-style-header:hover::after {
   width: 100%;
-  transition: width .4s;
+  transition: width 0.4s;
 }
 
 .nav-header {
@@ -132,7 +139,6 @@
 }
 
 @media (max-width: 500px) {
-
   .header {
     gap: 30px;
     font-size: 24px;
