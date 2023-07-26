@@ -1,3 +1,4 @@
+/* Common styles for the header */
 .header {
   display: flex;
   flex-wrap: wrap;
@@ -7,12 +8,13 @@
   position: fixed;
   top: 0;
   width: 100%;
-  height: 125px;
+  height: 105px;
   background-color: #fff;
   z-index: 1;
   border-bottom: solid 4px #141414;
 }
 
+/* Header title style */
 .nome-header {
   font-family: "Courgette", cursive;
   font-size: 2.5rem;
@@ -20,6 +22,7 @@
   border-bottom: #67dd0a solid 4px;
 }
 
+/* Navigation link styles */
 .nav-style-header {
   font-family: "Courgette", cursive;
   font-size: 1.85rem;
@@ -27,13 +30,13 @@
   border-bottom: transparent solid 4px;
   text-decoration: none;
   color: #141414;
-  transition: width 0.5s ease, background-color 0.5s ease;
+  transition: color 0.5s ease, border-color 0.5s ease;
   box-shadow: 2px 2px transparent;
 }
 
 .nav-style-header:hover {
-  color: #fff;
-  box-shadow: 10px 10px #000;
+  color: #67dd0a;
+  border-color: #67dd0a;
 }
 
 .nav-style-header::after {
@@ -43,14 +46,14 @@
   height: 0.4063rem;
   background: #67dd0a;
   margin-top: 3px;
-  transition: width;
+  transition: width 0.4s;
 }
 
 .nav-style-header:hover::after {
   width: 100%;
-  transition: width 0.4s;
 }
 
+/* Navigation container styles */
 .nav-header {
   display: flex;
   flex-wrap: wrap;
@@ -59,6 +62,7 @@
   align-items: center;
 }
 
+/* Flag icon styles */
 .header-flags {
   display: flex;
   justify-content: left;
@@ -80,10 +84,10 @@
 
 .header-flags img:hover {
   border: 4px solid #67dd0a;
-  transition: 0.5s;
   box-shadow: 4px 4px 4px #141414;
 }
 
+/* Dropdown menu styles */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -112,13 +116,13 @@
 .dropdown-style a:hover {
   color: #fff;
   background-color: #141414;
-  border-radius: 5%;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
+/* Unordered list styles */
 .ul-header {
   display: flex;
   flex-wrap: wrap;
@@ -137,19 +141,20 @@
   cursor: pointer;
 }
 
+/* Media query for smaller screens */
 @media (max-width: 500px) {
   .header {
-    gap: 30px;
-    font-size: 24px;
+    height: 80px;
+    font-size: 18px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    padding: 10px 20px;
+    padding: 8px 8px;
   }
 
   .header-flags img {
-    width: 30px;
+    width: 25px;
   }
 
   .nav-header {
@@ -162,7 +167,7 @@
 
   .nav-header-principal {
     justify-content: center;
-    margin-bottom: 25px;
+    align-items: center;
   }
 
   .nav-header li a {
