@@ -23,7 +23,7 @@
 }
 
 main {
-  padding-top: 250px;
+  padding-top: 200px;
   box-sizing: border-box;
   padding-bottom: 30px;
 }
@@ -348,6 +348,7 @@ main {
 @media (max-width: 800px) {
   main {
     width: auto;
+    padding-top: 145px;
     margin-top: 0;
   }
 }
@@ -484,13 +485,13 @@ main {
   }
 
   .experiencia-imagem-homem {
-    width: 185px;
+    width: 120px;
     margin-bottom: 40px;
     margin-top: -80px;
   }
 
   .subtitulo-experiencia-main {
-    font-size: 45px;
+    font-size: 35px;
     word-break: normal;
     line-height: 1;
     text-transform: uppercase;
@@ -503,8 +504,12 @@ main {
   }
 
   .texto-experiencia-main {
-    font-size: 24px;
-    padding: 10px;
+    font-size: 20px;
+    padding: 20px;
     margin-bottom: 10px;
+    line-height: 28px;
+  }
+  .projetos-card p {
+    font-size: 50px;
   }
 }
