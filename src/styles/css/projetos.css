@@ -5,7 +5,7 @@
   justify-content: center;
   color: #c4c4c4;
   text-transform: uppercase;
-  font-size: 3.125rem; /* 50px */
+  font-size: 4rem; /* 50px */
   font-weight: 700;
   margin-top: 3.75rem; /* 60px */
   margin-bottom: 2.5rem; /* 40px */
@@ -55,7 +55,8 @@
 .projetos-botao-2 {
   width: 12.5rem; /* 200px */
   height: 3.75rem; /* 60px */
-  font-size: 1.5rem; /* 24px */
+  padding: 10px; /*10px*/
+  font-size: 1.25rem; /* 20px */
   border: 0.1875rem solid #000; /* 3px */
   color: #757286;
   text-decoration: none;
@@ -63,6 +64,7 @@
   text-shadow: 0.03125rem 0.03125rem 0.03125rem #000; /* 0.5px 0.5px 0.5px #000 */
   display: grid;
   place-items: center;
+  text-align: center;
   transition: background-color 1s, color 1s, border-color 1s, text-shadow 1s;
 }
 
