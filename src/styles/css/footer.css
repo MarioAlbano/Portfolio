@@ -1,20 +1,21 @@
+/* Common styles */
 .footer {
   background: #000;
   display: block;
 }
 
 .footer-container {
-  max-width: 1200px;
-  padding: 120px 20px 60px 20px;
+  max-width: 75rem; /* 1200px */
+  padding: 4.6875rem 0.9375rem 2.34375rem; /* 75px 15px 37.5px */
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 100px;
+  gap: 6.25rem; /* 100px */
   align-items: center;
 }
 
 .footer-texto {
-  font-size: 1.5rem;
+  font-size: 1.5rem; /* 24px */
   line-height: 1.33;
   color: #fff;
   text-align: center;
@@ -22,62 +23,59 @@
 
 .footer-contato li {
   font-weight: 700;
-  font-size: 2.25rem;
+  font-size: 2.25rem; /* 36px */
   line-height: 1.1;
   color: #fff;
-  margin-bottom: 50px;
+  margin-bottom: 3.125rem; /* 50px */
 }
 
 .footer-contato li a {
   text-decoration: none;
   color: #fff;
-  padding: 20px;
-  border: solid 2px;
-  border: #000 solid 2px;
+  padding: 1.25rem; /* 20px */
+  border: 0.0625rem solid #000; /* 1px */
   transition: 1s;
 }
 
 .footer-contato li a:hover {
-  border: #67dd0a solid 2px;
+  border-color: #67dd0a;
   background-color: #67dd0a;
-  border-radius: 4px;
+  border-radius: 0.25rem; /* 4px */
   color: #000;
   transition: 1s;
 }
 
 .footer-copy {
-  font-size: 1.125rem;
+  font-size: 1.125rem; /* 18px */
   color: #8f8f8f;
   text-align: center;
   grid-column: 1/-1;
 }
 
-@media (max-width: 600px) {
+/* Responsive styles */
+@media (max-width: 37.5rem) {
+  /* 600px */
   .footer-container {
-    max-width: 75%;
-    padding: 50px 20px 60px 20px;
+    max-width: 75%; /* 600px */
+    padding: 2.5rem 0.9375rem 2.34375rem; /* 40px 15px 37.5px */
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr;
-    gap: 20px;
+    gap: 1.25rem; /* 20px */
     align-items: center;
   }
 
   .footer-container p,
-  .footer-container p {
-    font-size: 20px;
-  }
-
   .footer-container ul li {
-    font-size: 25px;
+    font-size: 1.25rem; /* 20px */
   }
 
   .footer-contato {
-    margin-top: 30px;
+    margin-top: 1.875rem; /* 30px */
   }
 
   .footer-contato li {
-    padding: 10px;
+    padding: 0.625rem; /* 10px */
     display: flex;
     justify-content: center;
     margin-right: auto;

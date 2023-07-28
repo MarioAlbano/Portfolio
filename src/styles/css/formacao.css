@@ -1,3 +1,4 @@
+/* Common styles */
 .formacao {
   background: #141414;
   color: #fff;
@@ -5,17 +6,17 @@
 }
 
 .formacao-container {
-  max-width: 1400px;
-  padding: 70px 20px 20px;
+  max-width: 87.5rem; /* 1400px */
+  padding: 2.5rem 0.9375rem 0.9375rem; /* 40px 15px 15px */
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  gap: 100px;
+  gap: 1rem; /* 16px */
   position: relative;
 }
 
 .subtitulo {
-  font-size: 7rem;
+  font-size: 4.375rem; /* 70px */
   word-break: break-all;
   line-height: 1;
   text-transform: uppercase;
@@ -26,11 +27,10 @@
 }
 
 .formacao-texto {
-  display: block;
-  font-size: 1.5rem;
+  font-size: 1.5rem; /* 24px */
   line-height: 1.33;
   max-width: 40ch;
-  margin-bottom: 60px;
+  margin-bottom: 3.75rem; /* 60px */
   color: #a3a3a3;
 }
 
@@ -41,16 +41,16 @@
 .faculdade-lista {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
-  margin-bottom: 30px;
-  font-size: 22px;
+  gap: 0.625rem; /* 10px */
+  margin-bottom: 1.875rem; /* 30px */
+  font-size: 1.375rem; /* 22px */
 }
 
 .faculdade {
   flex: 1;
   background: #000;
-  padding: 20px;
-  border-radius: 4px;
+  padding: 1.25rem; /* 20px */
+  border-radius: 0.25rem; /* 4px */
   display: flex;
   flex-direction: column;
 }
@@ -58,25 +58,25 @@
 .faculdade-curso::before {
   content: "";
   display: block;
-  width: 4px;
-  height: 20px;
+  width: 0.25rem; /* 4px */
+  height: 1.25rem; /* 20px */
   background: linear-gradient(#b6f829, #67dd0a);
   position: absolute;
-  margin-left: -24px;
+  margin-left: -0.9375rem; /* -15px */
 }
 
 .faculdade-tipo {
-  font-size: 0.875rem;
+  font-size: 0.875rem; /* 14px */
   text-transform: uppercase;
   color: #a3a3a3;
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem; /* 10px */
 }
 
 .faculdade-curso {
-  font-size: 1.125rem;
+  font-size: 1.125rem; /* 18px */
   line-height: 1.4;
-  margin-bottom: 20px;
-  margin-top: 20px;
+  margin-bottom: 1.25rem; /* 20px */
+  margin-top: 1.25rem; /* 20px */
   position: relative;
   flex: 1;
 }
@@ -87,24 +87,24 @@
 
 .formacao-extra {
   display: flex;
-  max-width: 1400px;
+  max-width: 87.5rem; /* 1400px */
   flex-direction: column;
   margin: 0 auto;
-  padding-bottom: 60px;
+  padding-bottom: 3.75rem; /* 60px */
 }
 
 .formacao-extra li {
-  font-size: 24px;
+  font-size: 1.375rem; /* 22px */
   line-height: 1.1;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem; /* 20px */
 }
 
 .formacao-extra h3 {
-  font-size: 24px;
+  font-size: 1.375rem; /* 22px */
   line-height: 1.4;
   color: #8f8f8f;
   text-transform: uppercase;
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem; /* 30px */
   position: relative;
   font-weight: bold;
   display: block;
@@ -117,19 +117,16 @@
 .formacao-extra h3::before {
   display: block;
   content: "";
-  width: 24px;
-  height: 24px;
+  width: 0.9375rem; /* 15px */
+  height: 0.9375rem; /* 15px */
   position: absolute;
-  left: -36px;
-  top: -4px;
+  left: -1.5rem; /* -24px */
+  top: -0.1875rem; /* -3px */
 }
 
 .cursos {
-  margin-bottom: 20px;
-}
-
-.cursos h3::before {
-  background: url(/img/cursos.svg) no-repeat center center;
+  margin-bottom: 1.25rem; /* 20px */
+  padding: 0.9375rem 0.9375rem; /* 15px 15px */
 }
 
 .cursos li {
@@ -144,6 +141,7 @@
 
 .idiomas {
   display: block;
+  padding: 0.9375rem 0.9375rem; /* 15px 15px */
 }
 
 .idiomas li {
@@ -156,13 +154,12 @@
   cursor: pointer;
 }
 
-.idiomas h3::before {
-  background: url(/img/idiomas.svg) no-repeat center center;
-}
-
-@media (max-width: 600px) {
+/* Responsive styles */
+@media (max-width: 37.5rem) {
+  /* 600px */
   .formacao-container {
     margin-bottom: auto;
+    grid-template-columns: 1fr;
   }
 
   .formacao-container div {
@@ -171,44 +168,40 @@
   }
 
   .formacao-texto {
-    font-size: 20px;
+    font-size: 1.25rem; /* 20px */
   }
 
   .cursos {
-    margin-top: 24px;
+    margin-top: 1.5rem;
   }
 
   .cursos h3,
-  .cursos li {
-    font-size: 24px;
-    padding: 10px;
+  .cursos li,
+  .idiomas h3,
+  .idiomas li {
+    font-size: 1.375rem; /* 22px */
+    padding: 0.625rem; /* 10px */
     margin: auto;
   }
 
-  .idiomas h3,
-  .idiomas li {
-    font-size: 24px;
-    padding: 10px;
-    margin: auto;
-  }
   .faculdade-lista li {
-    font-size: 18px;
+    font-size: 1.125rem; /* 18px */
   }
 
   .faculdade-curso {
-    font-size: 20px;
+    font-size: 1.25rem; /* 20px */
   }
 
   .faculdade-instituicao {
-    font-size: 18px;
+    font-size: 1.125rem; /* 18px */
   }
 
   .formacao-extra .idiomas {
-    margin-top: 20px;
+    margin-top: 1.25rem; /* 20px */
   }
 
   .cursos h3,
   .cursos li {
-    font-size: 20px;
+    font-size: 1.25rem; /* 20px */
   }
 }
