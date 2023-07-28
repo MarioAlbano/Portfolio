@@ -25,7 +25,7 @@
 /* Navigation link styles */
 .nav-style-header {
   font-family: "Courgette", cursive;
-  font-size: 1.15625rem; /* 18.5px */
+  font-size: 1.5625rem; /* 25px */
   font-weight: 900;
   border-bottom: transparent solid 0.25rem;
   text-decoration: none;
@@ -57,7 +57,7 @@
 .nav-header {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem; /* 20px */
+  gap: 3.125rem; /* 50px */
   font-size: 1.25rem; /* 20px */
   align-items: center;
 }
@@ -171,6 +171,6 @@
   }
 
   .nav-header li a {
-    font-size: 1.25rem; /* 20px */
+    font-size: 1.0938rem; /* 17.5px */
   }
 }
