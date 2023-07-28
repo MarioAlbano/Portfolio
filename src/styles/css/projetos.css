@@ -15,6 +15,7 @@
   grid-template-columns: 1fr 2fr;
   align-items: center;
   justify-items: center;
+  padding: 20px;
   max-width: 1400px;
   gap: 20px;
   margin: auto auto 100px auto;
@@ -101,10 +102,19 @@
   width: 740px;
   transition: 1s;
 }
+@media (max-width: 900px) {
+  .projetos-agrupamento {
+    grid-template-columns: 1fr;
+  }
+
+  .projetos-h3 {
+    font-size: 2.5rem;
+  }
+}
 
 @media (max-width: 600px) {
   .projetos-h3 {
-    font-size: 32px;
+    font-size: 28px;
     text-align: center;
     margin: 40px auto 10px;
     padding: 0;

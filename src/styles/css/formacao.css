@@ -126,10 +126,7 @@
 
 .cursos {
   margin-bottom: 20px;
-}
-
-.cursos h3::before {
-  background: url(/img/cursos.svg) no-repeat center center;
+  padding: 0px 20px;
 }
 
 .cursos li {
@@ -144,6 +141,7 @@
 
 .idiomas {
   display: block;
+  padding: 0px 20px;
 }
 
 .idiomas li {
@@ -154,10 +152,6 @@
 .idiomas li:hover {
   color: #67dd0a;
   cursor: pointer;
-}
-
-.idiomas h3::before {
-  background: url(/img/idiomas.svg) no-repeat center center;
 }
 
 @media (max-width: 600px) {
