@@ -1,16 +1,11 @@
-/*Css splitted*/
+/* CSS imports */
 @import url(header.css);
 @import url(main.css);
 @import url(formacao.css);
 @import url(footer.css);
 @import url(projetos.css);
 
-/*Utilizando CSS reset*/
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
+/* CSS reset */
 html,
 body,
 div,
@@ -98,6 +93,7 @@ video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  box-sizing: border-box;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -142,7 +138,6 @@ table {
   border-spacing: 0;
 }
 
-*,
 body {
   font-family: "Fira Sans", sans-serif;
 }
@@ -153,5 +148,4 @@ body {
   max-width: 100%;
   overflow-x: hidden;
   scroll-behavior: smooth;
-  box-sizing: border-box;
 }

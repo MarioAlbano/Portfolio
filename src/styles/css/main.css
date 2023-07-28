@@ -1,21 +1,42 @@
+/* Keyframes */
 @keyframes color {
   0% {
     background: #ffffff;
   }
-
   20% {
     background: #000000;
   }
-
   70% {
     background: #489299;
   }
-
   100% {
     background: #2dc9d7;
   }
 }
 
+@keyframes float {
+  0% {
+    transform: translateY(0rem);
+  }
+  50% {
+    transform: translateY(-1.875rem); /* -30px */
+  }
+  100% {
+    transform: translateY(0rem);
+  }
+}
+
+@keyframes pisca {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+/* Common styles */
 .bg-fundo-animado {
   background: #2dc9d7;
   /* Fallback */
@@ -23,13 +44,9 @@
 }
 
 main {
-  padding-top: 200px;
+  padding-top: 12.5rem; /* 200px */
   box-sizing: border-box;
-  padding-bottom: 30px;
-}
-
-.h1-color-name {
-  color: #67dd0a;
+  padding-bottom: 1.875rem; /* 30px */
 }
 
 .icone-grid {
@@ -39,42 +56,41 @@ main {
 
 .icone-flexa {
   position: relative;
-  width: 40px;
-  top: -20px;
-  padding: 10px;
+  width: 2.5rem; /* 40px */
+  top: -1.25rem; /* -20px */
+  padding: 0.625rem; /* 10px */
   transition: 0.6s;
 }
 
 .icone-flexa:hover {
-  top: 0px;
-  transition: 0.6s;
+  top: 0rem;
 }
 
 .apresentacao {
-  max-width: 1400px;
+  max-width: 87.5rem; /* 1400px */
   display: grid;
   grid-template-columns: 1fr 2fr;
-  gap: 200px;
+  gap: 12.5rem; /* 200px */
   margin: auto;
-  margin-bottom: 70px;
+  margin-bottom: 4.375rem; /* 70px */
   justify-content: center;
 }
 
 .apresentacao h1::before {
   content: "";
   display: block;
-  width: 130px;
-  height: 100px;
+  width: 8.125rem; /* 130px */
+  height: 6.25rem; /* 100px */
   position: absolute;
-  left: -40px;
+  left: -2.5rem; /* -40px */
   z-index: -1;
 }
 
 .apresentacao img {
-  width: 400px;
-  height: 400px;
+  width: 25rem; /* 400px */
+  height: 25rem; /* 400px */
   /* image split by https://freefrontend.com/ */
-  --_g: 10% /45% 45% no-repeat linear-gradient(#000 0 0);
+  --_g: 0.625rem 10% /45% 45% no-repeat linear-gradient(#000 0 0);
   --m: left var(--_i, 0%) top var(--_g), bottom var(--_i, 0%) left var(--_g),
     top var(--_i, 0%) right var(--_g), right var(--_i, 0%) bottom var(--_g);
   -webkit-mask: var(--m);
@@ -85,71 +101,37 @@ main {
 }
 
 .apresentacao img:hover {
-  --_i: 10%;
+  --_i: 0.625rem; /* 10% */
   filter: grayscale(0);
-  border-radius: 20px;
+  border-radius: 1.25rem; /* 20px */
 }
 
-@keyframes float {
-  0% {
-    trasform: translatey(0px);
-  }
-
-  50% {
-    transform: translatey(-30px);
-  }
-
-  100% {
-    transform: translatey(0px);
-  }
+/* Additional styles for presentation section */
+.h1-color-name {
+  color: #67dd0a;
 }
 
 .h1-nome-cor {
   color: #33cc36;
-  text-shadow: 2px 2px 5px #141414;
+  text-shadow: 0.125rem 0.125rem 0.3125rem #141414; /* 2px 2px 5px #141414 */
 }
 
-.h1-extensao {
-  font-size: 4.3rem;
-  font-weight: bold;
-  line-height: 1.125;
-  margin-bottom: 40px;
-  position: relative;
-  display: block;
-}
-
+.h1-extensao,
 .h1-intro {
   font-size: 4.3rem;
   font-weight: bold;
   line-height: 1.125;
-  margin-bottom: 30px;
+  margin-bottom: 2.5rem; /* 40px */
   position: relative;
   display: block;
 }
 
-.h1-intro::after {
-  content: "|";
-  margin-left: 5px;
-  opacity: 1;
-  animation: pisca 0.7s infinite;
-}
-
+.h1-intro::after,
 .animation {
   content: "|";
-  margin-left: 5px;
+  margin-left: 0.3125rem; /* 5px */
   opacity: 1;
   animation: pisca 0.7s infinite;
-}
-
-@keyframes pisca {
-  0%,
-  100% {
-    opacity: 1;
-  }
-
-  50% {
-    opacity: 0;
-  }
 }
 
 .apresentacao div p {
@@ -158,53 +140,38 @@ main {
 }
 
 .experiencia-main {
-  max-width: 1150px;
+  max-width: 71.875rem; /* 1150px */
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  gap: 50px;
-  margin-top: 20px;
+  gap: 3.125rem; /* 50px */
+  margin-top: 1.25rem; /* 20px */
   background-color: #fff;
-  padding: 100px 200px;
-  border-radius: 40px;
-  border: #141414 solid 3px;
+  padding: 6.25rem 12.5rem; /* 100px 200px */
+  border-radius: 2.5rem; /* 40px */
+  border: 0.1875rem solid #141414; /* 3px */
 }
 
 .experiencia-imagem-homem {
   position: relative;
-  bottom: -130px;
-  transform: translatey(0px);
+  bottom: -8.125rem; /* -130px */
+  transform: translateY(0rem);
   animation: float 5s ease-in-out infinite;
-}
-
-@keyframes float {
-  0% {
-    transform: translateY(0px);
-  }
-
-  50% {
-    transform: translateY(-30px);
-  }
-
-  100% {
-    transform: translateY(0px);
-  }
 }
 
 .experiencia-div-detalhe::after {
   content: "";
   display: block;
-  width: 130px;
-  height: 100px;
+  width: 8.125rem; /* 130px */
+  height: 6.25rem; /* 100px */
   position: relative;
-  left: -200px;
-  bottom: -395px;
+  left: -12.5rem; /* -200px */
+  bottom: -24.6875rem; /* -395px */
   z-index: 1;
 }
 
 .subtitulo-experiencia-main {
   font-size: 6rem;
-  word-break: break-all;
   line-height: 1;
   text-transform: uppercase;
   max-width: 6ch;
@@ -216,7 +183,7 @@ main {
 .texto-experiencia-main {
   font-size: 1.5rem;
   line-height: 1.3;
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem; /* 40px */
   color: #525252;
 }
 
@@ -224,11 +191,11 @@ main {
   font-size: 1.5rem;
   line-height: 1.3;
   max-width: 40ch;
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem; /* 30px */
   color: #525252;
   display: flex;
   flex-direction: row;
-  gap: 40px;
+  gap: 2.5rem; /* 40px */
   font-weight: bold;
   align-self: center;
 }
@@ -238,44 +205,38 @@ main {
   color: #141414;
   font-size: 2rem;
   line-height: 1.3;
-  border: #fff solid 2px;
-  padding: 20px;
+  border: 0.125rem solid #fff; /* 2px */
+  padding: 1.25rem; /* 20px */
 }
 
 .lista-experiencia-main li a:hover {
-  border: #141414 solid 2px;
+  border: 0.125rem solid #141414; /* 2px */
   background-color: #67dd0a;
-  border-radius: 4px;
+  border-radius: 0.25rem; /* 4px */
 }
 
 .projetos-experiencia-main {
   display: grid;
   grid-template-columns: 1fr 1fr;
   background: #f5f5f5;
-  margin-bottom: 20px;
-  border-radius: 4px;
+  margin-bottom: 1.25rem; /* 20px */
+  border-radius: 0.25rem; /* 4px */
   position: relative;
-  gap: 10px 20px;
+  gap: 0.625rem 1.25rem; /* 10px 20px */
 }
 
 .projetos-experiencia-main::before {
   content: "";
   display: block;
-  width: 4px;
-  height: 20px;
+  width: 0.25rem; /* 4px */
+  height: 1.25rem; /* 20px */
   background: linear-gradient(#b6f829, #67dd0a);
   position: absolute;
-  top: 20px;
-  left: -4px;
+  top: 1.25rem; /* 20px */
+  left: -0.25rem; /* -4px */
 }
 
-.experiencia-tecnologias {
-  font-size: 1.125rem;
-  line-height: 1.1;
-  font-weight: 700;
-  color: #141414;
-}
-
+.experiencia-tecnologias,
 .experiencia-descricao {
   font-size: 1.125rem;
   line-height: 1.1;
@@ -292,33 +253,34 @@ main {
 .experiencia-habilidades {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 0.625rem; /* 10px */
   align-content: start;
 }
 
-/* Animação */
+/* Animation classes */
 [data-anime] {
   opacity: 0;
   transition: 0.6s;
 }
 
 [data-anime="left"] {
-  transform: translate3d(-50px, 0, 0);
+  transform: translate3d(-3.125rem, 0rem, 0rem); /* -50px, 0, 0 */
 }
 
 [data-anime="right"] {
-  transform: translate3d(50px, 0, 0);
+  transform: translate3d(3.125rem, 0rem, 0rem); /* 50px, 0, 0 */
 }
 
 [data-anime].animate {
   opacity: 1;
-  transform: translate3d(0px, 0px, 0px);
+  transform: translate3d(0rem, 0rem, 0rem);
 }
 
-/* Responsividade abaixo de 800px */
-@media (max-width: 800px) {
+/* Responsiveness */
+@media (max-width: 50rem) {
+  /* 800px */
   .apresentacao {
-    max-width: 500px;
+    max-width: 31.25rem; /* 500px */
     display: grid;
     grid-template-columns: 1fr;
     margin-left: auto;
@@ -330,27 +292,24 @@ main {
   }
 
   .apresentacao div p {
-    font-size: 24px;
-    color: #525252;
+    font-size: 1.5rem;
   }
 
   .apresentacao h1::before {
-    width: 75%;
+    width: 4.6875rem; /* 75% */
     height: 100%;
     position: absolute;
-    left: -25%;
+    left: -3.125rem; /* -25% */
   }
-}
 
-@media (max-width: 800px) {
   main {
     width: auto;
-    padding-top: 145px;
+    padding-top: 9.0625rem; /* 145px */
     margin-top: 0;
   }
 
   .experiencia-main {
-    max-width: 1400px;
+    max-width: 87.5rem; /* 1400px */
     display: grid;
     grid-template-columns: 1fr;
     padding: 0;
@@ -366,19 +325,17 @@ main {
   }
 
   .experiencia-main div div {
-    max-width: 600px;
+    max-width: 37.5rem; /* 600px */
     margin-left: auto;
     margin-right: auto;
-    padding: 20px;
+    padding: 1.25rem; /* 20px */
   }
 
   .experiencia-main::after {
     content: "";
     display: none;
   }
-}
 
-@media (max-width: 800px) {
   .subtitulo-experiencia-main {
     display: none;
   }
@@ -395,13 +352,13 @@ main {
   .formacao .formacao-container {
     display: grid;
     grid-template-columns: 1fr;
-    max-width: 500px;
+    max-width: 31.25rem; /* 500px */
     margin-left: auto;
     margin-right: auto;
   }
 
   .footer .footer-container {
-    max-width: 500px;
+    max-width: 31.25rem; /* 500px */
   }
 
   .lista-experiencia-main {
@@ -409,28 +366,29 @@ main {
     margin-left: auto;
     margin-right: auto;
     box-sizing: border-box;
-    gap: 5px;
+    gap: 0.3125rem; /* 5px */
   }
 
   .lista-experiencia-main li {
-    width: 250px;
+    width: 15.625rem; /* 250px */
   }
 
   .lista-experiencia-main li a {
     font-size: 1.75rem;
-    padding: 10px;
-    margin: 10px;
+    padding: 0.625rem; /* 10px */
+    margin: 0.625rem; /* 10px */
     display: block;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 37.5rem) {
+  /* 600px */
   .apresentacao {
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
     margin: auto;
-    gap: 65px;
+    gap: 4.0625rem; /* 65px */
   }
 
   .div-apresentacao {
@@ -438,55 +396,52 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem; /* 50px */
   }
 
   .div-apresentacao {
-    font-size: 18px;
+    font-size: 1.125rem; /* 18px */
   }
 
   .h1-extensao {
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem; /* 20px */
   }
 
   .h1-intro {
-    font-size: 10px;
-  }
-
-  .h1-intro {
+    font-size: 0.625rem; /* 10px */
     text-align: center;
   }
 
   .apresentacao img {
-    width: 175px;
-    height: 175px;
+    width: 10.9375rem; /* 175px */
+    height: 10.9375rem; /* 175px */
   }
 
   .h1-extensao {
-    font-size: 26px;
+    font-size: 1.625rem; /* 26px */
   }
 
   .h1-intro {
-    font-size: 26px;
+    font-size: 1.625rem; /* 26px */
   }
 
   .icone-flexa {
-    width: 25px;
+    width: 1.5625rem; /* 25px */
   }
 
   .experiencia-main {
-    max-width: calc(100% - 50px);
-    gap: 10px;
+    max-width: calc(100% - 3.125rem); /* -50px */
+    gap: 0.625rem; /* 10px */
   }
 
   .experiencia-imagem-homem {
-    width: 120px;
-    margin-bottom: 40px;
-    margin-top: -80px;
+    width: 7.5rem; /* 120px */
+    margin-bottom: 2.5rem; /* 40px */
+    margin-top: -5rem; /* -80px */
   }
 
   .subtitulo-experiencia-main {
-    font-size: 35px;
+    font-size: 2.1875rem; /* 35px */
     word-break: normal;
     line-height: 1;
     text-transform: uppercase;
@@ -495,12 +450,12 @@ main {
     font-weight: bold;
     display: block;
     text-align: center;
-    margin: 24px auto;
+    margin: 1.5rem auto; /* 24px */
   }
 
   .texto-experiencia-main {
-    font-size: 20px;
-    margin-bottom: 10px;
-    line-height: 28px;
+    font-size: 1.25rem; /* 20px */
+    margin-bottom: 0.625rem; /* 10px */
+    line-height: 1.75rem; /* 28px */
   }
 }

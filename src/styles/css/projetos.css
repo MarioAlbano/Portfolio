@@ -1,13 +1,14 @@
+/* Common styles */
 .projetos-h3 {
   display: flex;
-  padding: 50px 230px;
+  padding: 3.125rem 14.375rem; /* 50px 230px */
   justify-content: center;
   color: #c4c4c4;
   text-transform: uppercase;
-  font-size: 5rem;
+  font-size: 3.125rem; /* 50px */
   font-weight: 700;
-  margin-top: 60px;
-  margin-bottom: 40px;
+  margin-top: 3.75rem; /* 60px */
+  margin-bottom: 2.5rem; /* 40px */
 }
 
 .projetos-agrupamento {
@@ -15,94 +16,79 @@
   grid-template-columns: 1fr 2fr;
   align-items: center;
   justify-items: center;
-  padding: 20px;
-  max-width: 1400px;
-  gap: 20px;
-  margin: auto auto 100px auto;
+  padding: 1.25rem; /* 20px */
+  max-width: 87.5rem; /* 1400px */
+  gap: 1.25rem; /* 20px */
+  margin: auto;
+  margin-bottom: 1.25rem; /* 20px */
 }
 
 .projetos-card {
   display: flex;
   flex-direction: column;
+  max-width: 20rem; /* 320px */
 }
 
 .projetos-card h4 {
-  font-size: 35px;
-  margin-bottom: 30px;
-  text-shadow: 1px 1px 1px #757286;
+  font-size: 2.1875rem; /* 35px */
+  margin-bottom: 1.875rem; /* 30px */
+  text-shadow: 0.0625rem 0.0625rem 0.0625rem #757286; /* 1px 1px 1px #757286 */
   font-weight: 600;
 }
 
 .projetos-card p {
-  font-size: 24px;
+  font-size: 1.5rem; /* 24px */
   font-weight: 200;
   color: #757286;
   font-family: Montserrat, sans-serif;
   text-align: left;
-  line-height: 35px;
+  line-height: 2.1875rem; /* 35px */
 }
 
 .projetos-botao-div {
   display: flex;
-  gap: 10px;
-  margin-top: 15px;
+  gap: 0.625rem; /* 10px */
+  margin-top: 0.9375rem; /* 15px */
 }
 
-.projetos-botao {
-  width: 200px;
-  height: 60px;
-  font-size: 24px;
-  border: 3px solid #000;
+.projetos-botao,
+.projetos-botao-2 {
+  width: 12.5rem; /* 200px */
+  height: 3.75rem; /* 60px */
+  font-size: 1.5rem; /* 24px */
+  border: 0.1875rem solid #000; /* 3px */
   color: #757286;
   text-decoration: none;
   font-family: Montserrat, sans-serif;
-  text-shadow: 0.5px 0.5px 0.5px #000;
+  text-shadow: 0.03125rem 0.03125rem 0.03125rem #000; /* 0.5px 0.5px 0.5px #000 */
   display: grid;
   place-items: center;
-  transition: 1s;
+  transition: background-color 1s, color 1s, border-color 1s, text-shadow 1s;
 }
 
-.projetos-botao:hover {
+.projetos-botao:hover,
+.projetos-botao-2:hover {
   background-color: #67dd0a;
   color: white;
-  text-shadow: 2px 2px 2px #000;
-  border: 3px solid #67dd0a;
-}
-
-.projetos-botao-2 {
-  width: 200px;
-  height: 60px;
-  font-size: 24px;
-  border: 3px solid #000;
-  color: #757286;
-  text-decoration: none;
-  font-family: Montserrat, sans-serif;
-  text-shadow: 0.5px 0.5px 0.5px #000;
-  display: grid;
-  place-items: center;
-  transition: 1s;
-}
-
-.projetos-botao-2:hover {
-  background-color: #141414;
-  color: white;
-  text-shadow: 2px 2px 2px #000;
-  border: 3px solid #141414;
+  text-shadow: 0.0625rem 0.0625rem 0.0625rem #000; /* 2px 2px 2px #000 */
+  border: 0.1875rem solid #67dd0a; /* 3px solid #67dd0a */
 }
 
 .projetos-imagem {
-  height: 380px;
-  width: 700px;
-  transition: 1s;
+  height: 23.75rem; /* 380px */
+  width: 43.75rem; /* 700px */
+  transition: width 1s, height 1s;
   object-fit: contain;
 }
 
 .projetos-imagem:hover {
-  height: 410px;
-  width: 740px;
-  transition: 1s;
+  height: 25.625rem; /* 410px */
+  width: 46.25rem; /* 740px */
 }
-@media (max-width: 900px) {
+
+/* Responsive styles */
+@media (max-width: 56.25rem) {
+  /* 900px */
   .projetos-agrupamento {
     grid-template-columns: 1fr;
   }
@@ -112,59 +98,47 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 37.5rem) {
+  /* 600px */
   .projetos-h3 {
-    font-size: 28px;
+    font-size: 1.75rem; /* 28px */
     text-align: center;
-    margin: 40px auto 10px;
+    margin: 2.5rem auto 1rem; /* 40px auto 10px */
     padding: 0;
   }
 
-  .projetos-card {
-    display: flex;
-    flex-direction: column;
-    max-width: 280px;
-  }
-
   .projetos-card h4 {
-    font-size: 25px;
+    font-size: 1.5625rem; /* 25px */
   }
 
   .projetos-card p {
-    font-size: 20px;
+    font-size: 1.25rem; /* 20px */
   }
 
   .projetos-imagem {
-    max-height: 380px;
-    max-width: 700px;
+    max-height: 23.75rem; /* 380px */
+    max-width: 43.75rem; /* 700px */
     width: 100%;
-    height: 200px;
-    transition: 1s;
+    height: 10rem; /* 200px */
+    transition: width 1s, height 1s;
     object-fit: contain;
   }
 
   .projetos-agrupamento {
     display: flex;
     flex-direction: column;
-    max-width: 320px;
-    padding: 20px;
+    max-width: 20rem; /* 320px */
+    padding: 1.25rem; /* 20px */
     margin: auto;
-    margin-top: 20px;
+    margin-top: 1.25rem; /* 20px */
   }
 
-  .projetos-botao {
-    width: auto;
-    height: auto;
-    font-size: 18px;
-    text-align: center;
-    padding: 5px;
-  }
-
+  .projetos-botao,
   .projetos-botao-2 {
     width: auto;
     height: auto;
-    font-size: 20px;
+    font-size: 1.25rem; /* 20px */
     text-align: center;
-    padding: 5px;
+    padding: 0.3125rem; /* 5px */
   }
 }
