@@ -37,16 +37,14 @@
 }
 
 /* Common styles */
+main {
+  padding-top: 9.375rem;
+}
+
 .bg-fundo-animado {
   background: #2dc9d7;
   /* Fallback */
   animation: color 4s linear;
-}
-
-main {
-  padding-top: 12.5rem; /* 200px */
-  box-sizing: border-box;
-  padding-bottom: 1.875rem; /* 30px */
 }
 
 .icone-grid {
@@ -304,7 +302,7 @@ main {
 
   main {
     width: auto;
-    padding-top: 9.0625rem; /* 145px */
+    padding-top: 7.1875rem; /* 115px */
     margin-top: 0;
   }
 
@@ -426,7 +424,7 @@ main {
   }
 
   .icone-flexa {
-    width: 1.5625rem; /* 25px */
+    width: 2.5rem; /*40 px */
   }
 
   .experiencia-main {
