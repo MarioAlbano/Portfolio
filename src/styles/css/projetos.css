@@ -1,4 +1,9 @@
 /* Common styles */
+#projetos {
+  background-color: #fff;
+  padding-bottom: 3.125rem; /* 50px */
+}
+
 .projetos-h3 {
   display: flex;
   padding: 3.125rem 14.375rem; /* 50px 230px */
