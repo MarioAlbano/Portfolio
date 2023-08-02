@@ -1,44 +1,58 @@
 ### Hi there! 👋
 
-> This is my portifolio. Here you can find technologies that i know, what i'm studying at the moment, formation, courses that i did it, language knowledge, how to contact-me and more. 
-<img width="1426" alt="Captura de Tela 2023-01-23 às 13:36" src="src/components/img/fotos/site-example.png">
+# Portfolio: Mario Albano
 
-## What is inside?
+This is the HTML code for Mario Albano's portfolio website.
 
-- HTML
-- CSS3 
-- Prettier
-- Javascript
+## Description
+
+The website showcases Mario Albano's web development projects and provides information about his background and skills.
 
 ## Getting Started
 
-### Install dependencies:
+To view the website, open the `index.html` file in a web browser.
 
-```bash
-yarn
-```
+## Dependencies
 
-or
+- Bootstrap v5.3.1
+- Google Fonts (Courgette and Fira Sans)
+- Popper.js v2.11.8
+- CSS stylesheet (`style.css`)
+- JavaScript file (`scripts.js`)
 
-```bash
-npm install
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- The website includes a header, main section, and footer.
+- The header contains navigation links to different sections of the page.
+- The main section consists of the following subsections:
+  - **Apresentação**: Introduction section with a profile photo and brief introduction.
+  - **Sobre Mim**: About Me section with information about Mario Albano's background and skills.
+  - **Projetos**: Projects section with details of different web development projects.
+  - **Formação**: Education and Courses section showcasing Mario Albano's academic and intensive courses.
+- The footer includes contact information and links to the Github and LinkedIn profiles.
 
-## Structure
+## Usage
 
-```
-└── src
-    ├── components
-    ├── pages
-    ├── styles
-```
+The website is used to showcase Mario Albano's web development skills and projects. It allows visitors to explore his projects and get in touch for potential collaborations.
 
-| Folder              | Description                                      |
-| ----------          | -------------------------------------------      |
-| **components**      | Page components                                  |
-| **pages**           | Page components                                  |
-| **styles**          | Application styles                               |
+## Contributing
 
-<p align="center">Made with 💜 by Mario</p>
+The website is a personal portfolio and not intended for external contributions.
+
+## Credits
+
+- Icons available at https://icons8.com/icon/naDnVpQ3BNkR/portfolio
+- Google Fonts used: Courgette and Fira Sans
+- Bootstrap v5.3.1 used for styling and layout
+
+## License
+
+Some rights reserved.
+
+## Contact
+
+For any inquiries or collaboration requests, contact Mario Albano via the following channels:
+
+- Email: marioalbanon@gmail.com
+- Github: [https://github.com/MarioAlbano](https://github.com/MarioAlbano)
+- LinkedIn: [https://www.linkedin.com/in/mario-albano/](https://www.linkedin.com/in/mario-albano/)
