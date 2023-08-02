@@ -49,7 +49,7 @@ The website is a personal portfolio and not intended for external contributions.
 
 ## License
 
-Some rights reserved.
+MIT
 
 ## Contact
 
