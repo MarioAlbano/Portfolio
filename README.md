@@ -8,7 +8,7 @@ This is my portifolio. Here you can find technologies that i know, what i'm stud
 
 ## Description
 
-The website showcases Mario Albano's web development projects and provides information about his background and skills.
+The website showcases Mario Albano's web development projects and provides information about my background and skills.
 
 ## Getting Started
 
@@ -46,10 +46,6 @@ The website is a personal portfolio and not intended for external contributions.
 - Icons available at https://icons8.com/icon/naDnVpQ3BNkR/portfolio
 - Google Fonts used: Courgette and Fira Sans
 - Bootstrap v5.3.1 used for styling and layout
-
-## License
-
-MIT
 
 ## Contact
 
