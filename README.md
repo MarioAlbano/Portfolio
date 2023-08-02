@@ -2,7 +2,9 @@
 
 # Portfolio: Mario Albano
 
-This is the HTML code for Mario Albano's portfolio website.
+This is my portifolio. Here you can find technologies that i know, what i'm studying at the moment, formation, courses that i did it, language knowledge, how to contact-me and more.
+
+![Image Portfolio](./src/components/img/pages-image/site-example-portfolio.png)
 
 ## Description
 
